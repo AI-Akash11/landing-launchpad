@@ -7,13 +7,16 @@
 
 body{
     font-family: "Raleway", sans-serif;
-    background-color: #f0f0f8;
+    background-color: #f5f7fe;
 }
 
 /* ----------shared styles---------- */
 /* fonts */
 .inter{
     font-family: "Inter", sans-serif;
+}
+.raleway{
+    font-family: "Raleway", sans-serif;
 }
 .bold{
     font-weight: 700;
@@ -39,6 +42,7 @@ body{
 .btn:hover{
     background-color: gold;
     cursor: pointer;
+    transition: background-color .6s ease;
 }
 button a{
     text-decoration: none;
@@ -86,7 +90,7 @@ nav{
     gap: 220px;
 }
 .action-content{
-    width: 60%;
+    width: 50%;
 }
 .action-title{
     font-size: 42px;
@@ -190,6 +194,37 @@ nav{
 }
 
 
+/* bonus section styles */
+.bonus{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto 80px auto;
+    background-color: white;
+    align-items: center;
+    padding: 75px 150px;
+    border-radius: 14px;
+    box-shadow: 2px 2px 20px #25243250;
+}
+.bonus-title{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.bonus-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000050;
+    margin-bottom: 20px;
+}
+.bonus button{
+    margin-bottom: 20px;
+}
+.bonus img{
+    display: block;
+    width: 100%;
+    border-radius: 48px;
+}
 
 
 
@@ -227,7 +262,7 @@ nav{
 
 input[type="text"], input[type="email"]{
     width: 100%;
-    padding: 32px;
+    padding: 24px 32px;
     font-size: 20px;
     font-weight: 400;
     color: #00000050;
@@ -265,6 +300,12 @@ input[type="submit"]{
     display: block;
     box-sizing: border-box;
 
+}
+input[type="submit"]:hover{
+    background-color: gold;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.6s ease, color 0.6s ease;
 }
 
 
