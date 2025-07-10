@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -97,11 +98,9 @@ nav{
     margin-bottom: 24px;
     color: #25243250;
 }
-.action-image{
-    width: 40%;
-}
 .action img{
     border-radius: 48px;
+    width: 100%;
 }
 
 /* productive section styles */
@@ -109,7 +108,7 @@ nav{
     background-color: #4e47ff10;
     box-shadow: 2px 2px 20px #25243250;
 
-    width: 70%;
+    width: 80%;
     margin: 0 auto 140px auto;
     padding: 50px 80px;
     text-align: center;
@@ -193,6 +192,80 @@ nav{
 
 
 
+
+/* newslatter section styles */
+.newslatter{
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+.newslatter-title{
+    font-size: 100px;
+    width: 50%;
+    color: #000000;
+}
+.newslatter-inputfield{
+    width: 50%;
+}
+.newslatter-inputfield form{
+    width: 100%;
+    box-sizing: border-box;
+}
+.newslatter-inputfield form label{
+    display: block;
+    margin-bottom: 10px;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+
+input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000050;
+    border-radius: 10px;
+    border: 1px solid #d6dded;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 100%;
+    padding: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000050;
+    border-radius: 10px;
+    border: 1px solid #d6dded;
+    margin-bottom: 20px;
+}
+textarea::placeholder{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000050;
+}
+input[type="submit"]{
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #4E47FF40;
+    color: white;
+
+    width: 100%;
+    padding: 20px;
+
+    display: block;
+    box-sizing: border-box;
+
+}
 
 
 
