@@ -1,0 +1,69 @@
+/* ---------universal styles--------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+/* ----------shared styles---------- */
+/* fonts */
+.inter{
+    font-family: "Inter", sans-serif;
+}
+.bold{
+    font-weight: 700;
+}
+.heavy{
+    font-weight: 900;
+}
+/* text colors */
+.blue{
+    color: #4E47FF;
+}
+
+/* button styles */
+    .btn{
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+}
+button p{
+    color: white;
+}
+
+/* -----------header styles------------ */
+header{
+    background-image: url('../assets/Hero-bg.png');
+    padding-bottom: 160px;
+    margin-bottom: 120px;
+}
+/* navigation bar */
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 50px 150px;
+    margin: 0px auto 160px auto;
+}
+.nav-title{
+    font-size: 34px;
+}
+/* hero section */
+.hero{
+    text-align: center;
+}
+.hero-title{
+    color: #252432;
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+
