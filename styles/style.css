@@ -6,6 +6,7 @@
 
 body{
     font-family: "Raleway", sans-serif;
+    background-color: #f0f0f8;
 }
 
 /* ----------shared styles---------- */
@@ -67,3 +68,33 @@ nav{
     margin-bottom: 40px;
 }
 
+/* -----------main styles--------- */
+/* action section styles */
+.action{
+    width: 80%;
+    margin: 0 auto 120px auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 220px;
+}
+.action-content{
+    width: 60%;
+}
+.action-title{
+    font-size: 42px;
+    margin-bottom: 24px;
+    color: #252432;
+}
+.action-text{
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #25243250;
+}
+.action-image{
+    width: 40%;
+}
+.action img{
+    border-radius: 48px;
+}
